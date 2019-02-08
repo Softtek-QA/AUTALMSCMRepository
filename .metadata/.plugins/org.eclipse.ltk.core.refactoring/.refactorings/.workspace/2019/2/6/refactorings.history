@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;AUTWebServiceProject&apos; to &apos;AUTALMRootNode&apos;" description="Rename resource &apos;AUTWebServiceProject&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/AUTWebServiceProject" name="AUTALMRootNode" stamp="1549633935366" updateReferences="true"/>
+</session>
