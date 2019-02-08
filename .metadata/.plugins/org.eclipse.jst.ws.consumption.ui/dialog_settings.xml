@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.jst.ws.client.type.java">
+		<item value="http://192.168.0.101:19120/Services1.0/jaxws/issuemanager?wsdl"/>
+		<item value="http://192.168.0.101:19120/Services1.0/jaxws/filter?wsdl"/>
+		<item value="http://192.168.0.101:19120/Services1.0/jaxws/executionplanning?wsdl"/>
+		<item value="http://192.168.0.101:19120/Services1.0/jaxws/system?wsdl"/>
+		<item value="http://192.168.0.101:19120/Services1.0/jaxws/administration?wsdl"/>
+		<item value="http://192.168.0.101:19120/Services1.0/jaxws/requirements?wsdl"/>
+	</list>
+</section>
