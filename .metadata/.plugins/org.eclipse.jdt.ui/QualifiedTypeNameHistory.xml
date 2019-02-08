@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.microfocus.www.silkcentral.webservices.tests.Project"/>
+<fullyQualifiedTypeName name="br.lry.qa.alm.webservices.scm.tests.TestsServiceProxy"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="br.lry.qa.alm.webservices.scm.AUTALMProjects.AUT_ALM_PROJECTS"/>
+<fullyQualifiedTypeName name="br.lry.qa.alm.webservices.scm.AUTALMProjects"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="br.lry.qa.alm.webservices.scm.executionplanning.NodeParameter"/>
+<fullyQualifiedTypeName name="br.lry.qa.alm.webservices.scm.tests.ManualTestStep"/>
+<fullyQualifiedTypeName name="br.lry.qa.alm.webservices.scm.tests.NodeParameter"/>
+<fullyQualifiedTypeName name="br.lry.qa.alm.webservices.scm.executionplanning.ProjectAttribute"/>
+<fullyQualifiedTypeName name="br.lry.qa.alm.webservices.scm.tests.PlanningNode"/>
+<fullyQualifiedTypeName name="br.lry.qa.alm.webservices.scm.tests.PropertyValue"/>
+<fullyQualifiedTypeName name="br.lry.qa.alm.webservices.scm.AUTALMProjects.AUT_ALM_TESTS_TYPES"/>
+</qualifiedTypeNameHistroy>
