@@ -17,7 +17,7 @@ import br.lry.qa.alm.webservices.scm.tests.Project;
 import br.lry.qa.alm.webservices.scm.tests.PropertyValue;
 import br.lry.qa.alm.webservices.scm.tests.TestsServiceProxy;
 
-public class AUTALMProjects {
+public class AUTALMManage {
 	
 	
 	/**
@@ -85,7 +85,7 @@ public class AUTALMProjects {
 				return "113";
 			}
 			case VA_CONTAINER_VENDAS_ASSISTIDAS:{
-				return "161";
+				return "255";
 			}
 			default:{
 				return "1";
@@ -147,32 +147,7 @@ public class AUTALMProjects {
 				br.lry.qa.alm.webservices.scm.tests.NodeParameter[] params = (br.lry.qa.alm.webservices.scm.tests.NodeParameter[])paramsConfiguration.get("AUT_PARAMETROS_CTP");								
 				Integer idTest = tstManager.addManualTest(sessionId.toString(), containerId, ctName, ctDescription, steps , params);			
 				tstManager.automateTest(sessionId, idTest, typeTest.toString());				
-
-				
-				PlanningNode node = new PlanningNode(null,containerId,3,null,new PropertyValue[] {});
-				PropertyValue[] properties = new PropertyValue[4];
-				
-				 PropertyValue testType = new PropertyValue();
-				 properties[0] = testType;
-				 properties[0].setPropertyTypeID("_testdef_node_");
-				 properties[0].setPropertyID("_node_properties_testdef_type");
-				 properties[0].setValue("_mt_");
-				
-				 PropertyValue testName = new PropertyValue();
-				 properties[1] = testName;
-				 properties[1].setPropertyTypeID("_node_properties_");
-				 properties[1].setPropertyID("_node_properties_Name");
-				 properties[1].setValue("br.lry.tests");
-				
-				 PropertyValue testClass = new PropertyValue();
-				 properties[2] = testClass;
-				 properties[2].setPropertyTypeID("_junit_");
-				 properties[2].setPropertyID("ClassFile");
-				 properties[2].setValue("com.mycomp.MyTest;testes.com;");
-				
-				
-				tstManager.addNode(sessionId, projectId, idTest, node);
-												
+											
 				Project pjtObj = tstManager.getProject(sessionId, projectId);
 				
 				System.out.println(pjtObj.getDescription());
@@ -199,7 +174,7 @@ public class AUTALMProjects {
 	 * @param args - Parametros de inicialização dos testes
 	 */
 	public static void main(String[] args) {
-		AUTALMProjects pjtManager = new AUTALMProjects();
+		AUTALMManage pjtManager = new AUTALMManage();
 		
 		java.util.HashMap<String, Object> parametersConfig = new java.util.HashMap<String,Object>();
 		parametersConfig.put("AUT_SERVER_ALM", "192.168.0.101:19120");
