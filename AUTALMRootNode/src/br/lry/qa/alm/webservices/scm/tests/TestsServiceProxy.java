@@ -19,10 +19,10 @@ public class TestsServiceProxy implements br.lry.qa.alm.webservices.scm.tests.Te
       if (testsService != null) {
         if (_endpoint != null)
           ((javax.xml.rpc.Stub)testsService)._setProperty("javax.xml.rpc.service.endpoint.address", _endpoint);
-        else
-          _endpoint = (String)((javax.xml.rpc.Stub)testsService)._getProperty("javax.xml.rpc.service.endpoint.address");
-      }
-      
+        else {
+            _endpoint = (String)((javax.xml.rpc.Stub)testsService)._getProperty("javax.xml.rpc.service.endpoint.address");
+        }
+      }      
     }
     catch (javax.xml.rpc.ServiceException serviceException) {}
   }
